@@ -1,0 +1,10 @@
+{
+  "name": "@web-nx-react-monorepo/new-app-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@web-nx-react-monorepo/new-app"
+    ]
+  }
+}

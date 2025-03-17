@@ -1,0 +1,8 @@
+{
+  "name": "@web-nx-react-monorepo/new-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^2.0.0"
+  }
+}
