@@ -13,15 +13,12 @@ describe('App', () => {
     expect(baseElement).toBeTruthy();
   });
 
-  it('should have a greeting as the title', () => {
+  it('should have the app name as the title', () => {
     const { getAllByText } = render(
       <BrowserRouter>
         <App />
       </BrowserRouter>
     );
-    expect(
-      getAllByText(new RegExp('Welcome @web-nx-react-monorepo/new-app', 'gi'))
-        .length > 0
-    ).toBeTruthy();
+    expect(getAllByText('Welcome new-app').length > 0).toBeTruthy();
   });
 });
